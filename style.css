@@ -1,0 +1,108 @@
+:root {
+    font: 1.25rem/1.5rem 'Verdana';
+}
+
+.danger {
+    background: red;
+}
+
+.gold {
+    color: gold;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav>h1 {
+    flex: 0 1 auto;
+}
+
+nav>ul {
+    flex: 4 1 auto;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+nav>ul>li {
+    flex: 0 1 auto;
+}
+
+footer {
+    background: #222;
+    color: #eee;
+    min-height: 15vh;
+    padding: 2em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+footer>div {
+    flex: 0 1 auto;
+    justify-content: start;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer>div>h3 {
+    margin-top: 0;
+}
+
+section:first-child,
+section:last-child {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+section:last-child {
+    background: #22a;
+}
+
+section:first-child>article,
+section:last-child>article {
+    flex: 0 1 auto;
+    background: #22a;
+    color: white;
+    font-size: .75em;
+    padding: 1em;
+}
+
+section.wide {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffb76b+0,ffa73d+27,e85500+58,e85500+58,ba0f03+100 */
+    background: #ffb76b;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #ffb76b 0%, #ffa73d 27%, #e85500 58%, #e85500 58%, #ba0f03 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #ffb76b 0%, #ffa73d 27%, #e85500 58%, #e85500 58%, #ba0f03 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #ffb76b 0%, #ffa73d 27%, #e85500 58%, #e85500 58%, #ba0f03 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffb76b', endColorstr='#ba0f03', GradientType=0);
+    /* IE6-9 */
+    min-height: 20vh;
+    padding: 2em;
+    color: white;
+    text-shadow: 1px 1px 1px black,
+        -1px -1px 1px black,
+        1px -1px 1px black,
+        -1px 1px 1px black;
+    font: 2em/2.25em Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+section.form form {
+    margin: 1em auto;
+    width: 66%;
+
+}
+
+section.form form label,
+textarea {
+    display: block;
+    margin: 8px 0;
+}
